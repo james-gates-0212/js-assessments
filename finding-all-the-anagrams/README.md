@@ -1,4 +1,4 @@
-# Find All The Anagrams
+# Finding All The Anagrams
 
 Find all the anagrams within a series of words provided.
 
