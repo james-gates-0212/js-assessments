@@ -11,7 +11,7 @@ Input
 Output
 
 ```console
-<>><<><>>
+<><<><>>
 ```
 
 ## Execute
