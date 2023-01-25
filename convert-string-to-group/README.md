@@ -1,4 +1,6 @@
-# Create function to convert given string to the output below
+# Convert string to group
+
+Create function to convert given string to the output below.
 
 Input
 
