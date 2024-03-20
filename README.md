@@ -1,5 +1,6 @@
 # 📓JavaScript Assessments
 
+- [Calculate the sum of the numbers in a nested array](calculate-the-sum-of-the-numbers-in-a-nested-array)
 - [Convert string to group](convert-string-to-group)
 - [Delete Overlapping Intervals](delete-overlapping-intervals)
 - [Filling all the missed angle brackets](filling-all-the-missed-angle-brackets)
