@@ -1,10 +1,5 @@
 const solution = (word, cipher) => {
-  if (
-    !/^[a-z]+$/.test(word) ||
-    !word ||
-    !cipher ||
-    cipher.length !== 26
-  ) {
+  if (!/^[a-z]+$/.test(word) || !word || !cipher || cipher.length !== 26) {
     return '';
   }
   let result = '';
@@ -20,7 +15,5 @@ const solution = (word, cipher) => {
 };
 
 (() => {
-  console.log(
-    solution('helloworld', 'zyxwvutsrqponmlkjihgfedcba'),
-  );
+  console.log(solution('helloworld', 'zyxwvutsrqponmlkjihgfedcba'));
 })();
