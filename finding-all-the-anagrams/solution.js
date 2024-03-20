@@ -27,18 +27,6 @@ const findAnagrams = (words) => {
 };
 
 (() => {
-  const words = [
-    'eat',
-    'ate',
-    'tea',
-    'monk',
-    'konm',
-    'nkom',
-    'bbc',
-    'cbb',
-    'dell',
-    'ledl',
-    'llde',
-  ];
+  const words = ['eat', 'ate', 'tea', 'monk', 'konm', 'nkom', 'bbc', 'cbb', 'dell', 'ledl', 'llde'];
   console.log(findAnagrams(words));
 })();

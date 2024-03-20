@@ -8,11 +8,8 @@ function f(str) {
   const reAlphabets = /[A-Za-z]/g;
 
   const fnReplacer = (substr) => {
-    const offset =
-      substr.toUpperCase().charCodeAt(0) - codeA;
-    return String.fromCharCode(
-      substr.charCodeAt(0) + 25 - 2 * offset,
-    );
+    const offset = substr.toUpperCase().charCodeAt(0) - codeA;
+    return String.fromCharCode(substr.charCodeAt(0) + 25 - 2 * offset);
   };
 
   return str.replace(reAlphabets, fnReplacer);
@@ -28,7 +25,5 @@ function solution(str) {
 (() => {
   solution('acp123!@#');
 
-  solution(
-    'Errors in strategy cannot be correct through tactical maneuvers',
-  );
+  solution('Errors in strategy cannot be correct through tactical maneuvers');
 })();

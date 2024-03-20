@@ -1,14 +1,5 @@
-const solution = (
-  maze,
-  startRow,
-  startCol,
-  destRow,
-  destCol,
-) => {
-  if (
-    maze[startRow][startCol] == 1 ||
-    maze[destRow][destCol] == 1
-  ) {
+const solution = (maze, startRow, startCol, destRow, destCol) => {
+  if (maze[startRow][startCol] == 1 || maze[destRow][destCol] == 1) {
     return false;
   }
 
@@ -27,15 +18,10 @@ const solution = (
     [...slots].forEach((slot) => {
       tried.push(slot);
 
-      slots = slots.filter(
-        (s) => !(s.row == slot.row && s.col == slot.col),
-      );
+      slots = slots.filter((s) => !(s.row == slot.row && s.col == slot.col));
 
       for (const step of steps) {
-        if (
-          slot.row + step.row == destRow &&
-          slot.col + step.col == destCol
-        ) {
+        if (slot.row + step.row == destRow && slot.col + step.col == destCol) {
           path = true;
           return;
         }
@@ -47,20 +33,11 @@ const solution = (
           col: slot.col + step.col,
         };
 
-        if (
-          next.row < 0 ||
-          next.row >= maze.length ||
-          next.col < 0 ||
-          next.col >= maze[0].length
-        ) {
+        if (next.row < 0 || next.row >= maze.length || next.col < 0 || next.col >= maze[0].length) {
           continue;
         }
 
-        if (
-          tried.find(
-            (t) => t.row == next.row && t.col == next.col,
-          )
-        ) {
+        if (tried.find((t) => t.row == next.row && t.col == next.col)) {
           continue;
         }
 

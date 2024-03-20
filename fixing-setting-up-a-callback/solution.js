@@ -10,9 +10,7 @@ const solution = (messages) => {
     }
 
     trigger() {
-      this.messages.forEach((message) =>
-        this.event(message),
-      );
+      this.messages.forEach((message) => this.event(message));
     }
   }
 
@@ -36,12 +34,5 @@ const solution = (messages) => {
 };
 
 (() => {
-  console.log(
-    solution([
-      'Hello~',
-      'Can you hear me?',
-      'Nice to meet you.',
-      'This is a test message.',
-    ]),
-  );
+  console.log(solution(['Hello~', 'Can you hear me?', 'Nice to meet you.', 'This is a test message.']));
 })();

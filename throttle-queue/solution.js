@@ -9,10 +9,13 @@ function returnSlow() {
     const myI = i;
     i++;
     console.log('started ' + myI);
-    setTimeout(() => {
-      console.log('ended ' + myI);
-      resolve(getRandomInt(10));
-    }, getRandomInt(8) * 100 + 200);
+    setTimeout(
+      () => {
+        console.log('ended ' + myI);
+        resolve(getRandomInt(10));
+      },
+      getRandomInt(8) * 100 + 200,
+    );
   });
 }
 
@@ -37,20 +40,14 @@ function throttleQ(queue, n, result) {
     subQueue.push(queue.shift());
   }
 
-  return Promise.all(subQueue.map((fn) => fn())).then(
-    (subResult) => {
-      const resultAcc = [...(result ?? []), ...subResult];
-      return queue.length
-        ? throttleQ(queue, n, resultAcc)
-        : resultAcc;
-    },
-  );
+  return Promise.all(subQueue.map((fn) => fn())).then((subResult) => {
+    const resultAcc = [...(result ?? []), ...subResult];
+    return queue.length ? throttleQ(queue, n, resultAcc) : resultAcc;
+  });
 }
 
 (async () => {
-  const fns = [...Array(25)].map((_, i) =>
-    returnSlow.bind(null, i),
-  );
+  const fns = [...Array(25)].map((_, i) => returnSlow.bind(null, i));
 
   const promises = await throttleQ(fns, 6);
 

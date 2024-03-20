@@ -15,9 +15,7 @@ const solution = (messages) => {
     }
 
     trigger() {
-      this.messages.forEach((message) =>
-        this.event(message),
-      );
+      this.messages.forEach((message) => this.event(message));
     }
   }
 
