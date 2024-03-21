@@ -7,10 +7,7 @@ function g(str) {
   while (codeA <= codeZ) {
     const letter = String.fromCharCode(codeA++);
 
-    letterFrequencies[letter] = str.replace(
-      new RegExp(`[^${letter}]`, 'gi'),
-      '',
-    ).length;
+    letterFrequencies[letter] = str.replace(new RegExp(`[^${letter}]`, 'gi'), '').length;
   }
 
   return letterFrequencies;
