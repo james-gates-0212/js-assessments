@@ -14,9 +14,7 @@ const solution = (transactions, taxRate) => {
 
   const distinctTransactions = new Set(transactions);
 
-  Array.from(distinctTransactions).map(
-    computeTotal(taxRate),
-  );
+  Array.from(distinctTransactions).map(computeTotal(taxRate));
 
   return numCalls;
 };

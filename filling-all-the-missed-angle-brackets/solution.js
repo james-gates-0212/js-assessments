@@ -4,13 +4,8 @@ const solution = (angles) => {
     missedAngles = missedAngles.replace(/<>/g, '');
   }
   const missedOpens = missedAngles.replace(/</g, '').length;
-  const missedCloses = missedAngles.replace(
-    />/g,
-    '',
-  ).length;
-  return `${'<'.repeat(missedOpens)}${angles}${'>'.repeat(
-    missedCloses,
-  )}`;
+  const missedCloses = missedAngles.replace(/>/g, '').length;
+  return `${'<'.repeat(missedOpens)}${angles}${'>'.repeat(missedCloses)}`;
 };
 
 (() => {
