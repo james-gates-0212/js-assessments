@@ -1,6 +1,13 @@
 {
   "name": "js-assessments",
   "version": "1.0.0",
+  "description": "JavaScript Assessments",
+  "author": "James Gates",
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8",
+    "yarn": ">=1"
+  },
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",
