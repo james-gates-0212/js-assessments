@@ -8,7 +8,7 @@ Here are JavaScript Assessments. I hope it could helps you and your works.
 [![CodeQL](https://github.com/james-gates-0212/js-assessments/actions/workflows/codeql.yml/badge.svg)](https://github.com/james-gates-0212/js-assessments/actions/workflows/codeql.yml)
 [![Proof HTML](https://github.com/james-gates-0212/js-assessments/actions/workflows/proof-html.yml/badge.svg)](https://github.com/james-gates-0212/js-assessments/actions/workflows/proof-html.yml)
 
-## Table of contents
+## 📑Table of contents
 
 - [Bracket Combinations](bracket-combinations)
 - [Calculate the sum of the numbers in a nested array](calculate-the-sum-of-the-numbers-in-a-nested-array)
