@@ -1,8 +1,8 @@
-# 📓JavaScript Assessments
+# JavaScript Assessments
 
 Here are JavaScript Assessments. I hope it could helps you and your works.
 
-## 🔖Repository Status
+## Repository Status
 
 [![Auto Assign](https://github.com/james-gates-0212/js-assessments/actions/workflows/auto-assign.yml/badge.svg)](https://github.com/james-gates-0212/js-assessments/actions/workflows/auto-assign.yml)
 [![CodeQL](https://github.com/james-gates-0212/js-assessments/actions/workflows/codeql.yml/badge.svg)](https://github.com/james-gates-0212/js-assessments/actions/workflows/codeql.yml)
@@ -25,26 +25,26 @@ Here are JavaScript Assessments. I hope it could helps you and your works.
 - [Throttle Queue](throttle-queue)
 - [Validating a maze path](validating-a-maze-path)
 
-## 📝Environment
+## Environment
 
 - node 18.x or later
 - yarn 1.x or later
 - npm 8.x or later
 
-## 🚧Install npm packages
+## Install npm packages
 
 ```bash
 npm i -g yarn
 yarn
 ```
 
-## ✅Lint
+## Lint
 
 ```bash
 yarn lint
 ```
 
-## ❤️Prettier
+## Prettier
 
 ```bash
 prettier --write ./
@@ -55,7 +55,7 @@ prettier --write ./
 npm i -g prettier
 ```
 
-## 🐞Git commit
+## Git commit
 
 Please use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for your commits.
 
@@ -67,7 +67,7 @@ e.g.
 [footer]
 ```
 
-### ♻️Types
+### Types
 
 `type` should be one of belows.
 
@@ -87,7 +87,7 @@ remove
 style
 ```
 
-### 📓Subject
+### Subject
 
 `subject` should include one of emojis as belows.
 
