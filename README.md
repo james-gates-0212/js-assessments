@@ -1,12 +1,22 @@
-# JavaScript Assessments
-
-Here are JavaScript Assessments. I hope it could helps you and your works.
-
-## Repository Status
+![GitHub forks](https://img.shields.io/github/forks/james-gates-0212/js-assessments?style=flat)
+![GitHub Discussions](https://img.shields.io/github/discussions/james-gates-0212/js-assessments)
+![GitHub Issues](https://img.shields.io/github/issues/james-gates-0212/js-assessments)
+![GitHub License](https://img.shields.io/github/license/james-gates-0212/js-assessments)
+![GitHub Repo stars](https://img.shields.io/github/stars/james-gates-0212/js-assessments?style=flat)
+![GitHub top language](https://img.shields.io/github/languages/top/james-gates-0212/js-assessments)
+![GitHub repo file or directory count](https://img.shields.io/github/directory-file-count/james-gates-0212/js-assessments)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/james-gates-0212/js-assessments)
+![GitHub repo size](https://img.shields.io/github/repo-size/james-gates-0212/js-assessments)
+![GitHub Release](https://img.shields.io/github/v/release/james-gates-0212/js-assessments)
+![GitHub Tag](https://img.shields.io/github/v/tag/james-gates-0212/js-assessments)
 
 [![Auto Assign](https://github.com/james-gates-0212/js-assessments/actions/workflows/auto-assign.yml/badge.svg)](https://github.com/james-gates-0212/js-assessments/actions/workflows/auto-assign.yml)
 [![CodeQL](https://github.com/james-gates-0212/js-assessments/actions/workflows/codeql.yml/badge.svg)](https://github.com/james-gates-0212/js-assessments/actions/workflows/codeql.yml)
 [![Proof HTML](https://github.com/james-gates-0212/js-assessments/actions/workflows/proof-html.yml/badge.svg)](https://github.com/james-gates-0212/js-assessments/actions/workflows/proof-html.yml)
+
+# JavaScript Assessments
+
+JavaScript coding assessments are a great way to evaluate coding skills and knowledge. They help assess a candidate's ability to write clean and efficient JavaScript code to solve various programming challenges. These assessments typically cover topics like data types, control flow, functions, arrays, objects, and more. They provide valuable insights into a candidate's problem-solving skills and their familiarity with JavaScript best practices. If you have any questions or need assistance with JavaScript coding assessments, feel free to ask!
 
 ## Table of contents
 
