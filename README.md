@@ -1,3 +1,4 @@
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjames-gates-0212%2Fjs-assessments)
 ![GitHub forks](https://img.shields.io/github/forks/james-gates-0212/js-assessments?style=flat)
 ![GitHub Discussions](https://img.shields.io/github/discussions/james-gates-0212/js-assessments)
 ![GitHub Issues](https://img.shields.io/github/issues/james-gates-0212/js-assessments)
