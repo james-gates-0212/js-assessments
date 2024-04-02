@@ -22,6 +22,7 @@ JavaScript coding assessments are a great way to evaluate coding skills and know
 ## Table of contents
 
 - [Bracket Combinations](bracket-combinations)
+- [Bracket Matcher](bracket-matcher)
 - [Calculate the sum of the numbers in a nested array](calculate-the-sum-of-the-numbers-in-a-nested-array)
 - [Convert string to group](convert-string-to-group)
 - [Delete Overlapping Intervals](delete-overlapping-intervals)
